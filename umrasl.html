@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Umrasl Designz | Graphics Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <style>
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: #0f0f0f; /* Optional: Dark background */
+}
+</style>
+  <style>
+    :root {
+      --bg: #0d0d0d;
+      --text: #ffffff;
+      --accent: #00ffe1;
+      --highlight: #ff00c8;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Poppins', sans-serif;
+    }
+
+    header {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: #333;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: var(--accent);
+    }
+
+    p.tagline {
+      font-size: 1.2rem;
+      color: var(--highlight);
+      margin-top: 10px;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      color: var(--accent);
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .skill {
+      padding: 12px 24px;
+      border: 2px solid var(--highlight);
+      border-radius: 30px;
+      color: var(--highlight);
+      font-weight: bold;
+      transition: 0.3s;
+      text-shadow: 0 0 4px var(--highlight);
+    }
+
+    .skill:hover {
+      background: var(--highlight);
+      color: #000;
+      box-shadow: 0 0 12px var(--highlight);
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .project {
+      background: #1a1a1a;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 0 8px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease;
+    }
+
+    .project:hover {
+      transform: scale(1.03);
+    }
+
+    .project img {
+      width: 100%;
+      display: block;
+    }
+
+    .project p {
+      padding: 15px;
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 500px;
+      margin: auto;
+      gap: 15px;
+    }
+
+    input, textarea {
+      padding: 12px;
+      border-radius: 6px;
+      border: none;
+      font-size: 1rem;
+    }
+
+    button {
+      background: var(--accent);
+      color: #000;
+      padding: 12px;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background: var(--highlight);
+      color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="particles-js"></div>
+  <header>
+    <img src="https://ik.imagekit.io/4e5uou2yov/ChatGPT%20Image%20Jul%2017,%202025,%2002_50_07%20PM.png?updatedAt=1752745835899" alt="Logo" />
+    <h1>Umrasl Designz</h1>
+    <p class="tagline">Creative Graphics Designer • 3 Years of Experience</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p style="text-align:center;">I’m a passionate graphics designer with 3 years of experience specializing in branding, social media, and digital designs. I bring creative ideas to life using Adobe Photoshop and Illustrator to meet every client's vision.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">Branding Design</div>
+      <div class="skill">Social Media Posts</div>
+      <div class="skill">Logo Design</div>
+      <div class="skill">Banner Ads</div>
+      <div class="skill">Print Design</div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="https://ik.imagekit.io/4e5uou2yov/GTR.jpg?updatedAt=1752745499975" alt="Project Sample" />
+        <p>Sample Project 1</p>
+      </div>
+      <div class="project">
+        <img src="https://ik.imagekit.io/4e5uou2yov/EDUCATION.jpg?updatedAt=1752745500895" alt="Project Sample" />
+        <p>Sample Project 2</p>
+      </div>
+      <div class="project">
+        <img src="https://ik.imagekit.io/4e5uou2yov/GTA_ROLEPLAY.jpg?updatedAt=1752745501006" alt="Project Sample" />
+        <p>Sample Project 3</p>
+      </div>
+      <div class="project">
+        <img src="https://ik.imagekit.io/4e5uou2yov/FOGG.jpg?updatedAt=1752745499444" alt="Project Sample" />
+        <p>Sample Project 4</p>
+      </div>
+      <div class="project">
+        <img src="https://ik.imagekit.io/4e5uou2yov/kawa_saki.png?updatedAt=1752745503084" alt="Project Sample" />
+        <p>Sample Project 5</p>
+      </div>
+      <div class="project">
+        <img src="https://ik.imagekit.io/4e5uou2yov/g_wagon.png?updatedAt=1752745502311" alt="Project Sample" />
+        <p>Sample Project 6</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formsubmit.co/umraslofficial@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Umrasl Designz. All rights reserved.
+  </footer>
+  <script>
+particlesJS("particles-js", {
+  "particles": {
+    "number": { "value": 90 },
+    "color": { "value": "#ffffff" },
+    "shape": { "type": "circle" },
+    "opacity": { "value": 0.4 },
+    "size": { "value": 3 },
+    "line_linked": {
+      "enable": true,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 2,
+      "direction": "none",
+      "out_mode": "out"
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": { "enable": true, "mode": "grab" },
+      "onclick": { "enable": true, "mode": "push" }
+    },
+    "modes": {
+      "grab": { "distance": 140, "line_linked": { "opacity": 1 } },
+      "push": { "particles_nb": 4 }
+    }
+  },
+  "retina_detect": true
+});
+</script>
+
+</body>
+</html>
